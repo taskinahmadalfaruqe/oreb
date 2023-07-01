@@ -33,6 +33,8 @@ module.exports = {
         white: '#fff',
         text: '#262626',
         lightdarkbg: '#767676',
+        lightext: '#6D6D6D',
+        darkbg: '#979797',
       }
     },
 
