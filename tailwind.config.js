@@ -23,7 +23,6 @@ module.exports = {
 
       backgroundImage: {
         'background-image': "url('../Image/slider-1 1.png')",
-        'bg-image-dark': "url('../Image/bgtwo.jpg')",
         'common-bg': "linear-gradient(to right, #fa5252, #dd2476)",
         'common-bg-hover': "linear-gradient(to left, #fa5252, #dd2476)",
       },
