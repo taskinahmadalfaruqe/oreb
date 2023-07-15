@@ -576,57 +576,85 @@ video {
   position: relative;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .bottom-\[20px\] {
   bottom: 20px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.left-\[10px\] {
+  left: 10px;
 }
 
 .left-\[20px\] {
   left: 20px;
 }
 
+.top-\[10px\] {
+  top: 10px;
+}
+
 .top-\[50\%\] {
   top: 50%;
 }
 
-.m-\[130px\] {
-  margin: 130px;
+.top-0 {
+  top: 0px;
 }
 
-.m-1 {
-  margin: 0.25rem;
+.top-\[\] {
+  top: ;
 }
 
-.my-\[130px\] {
-  margin-top: 130px;
-  margin-bottom: 130px;
+.bottom-\[cal\] {
+  bottom: cal;
 }
 
-.my-1 {
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
+.bottom-\[cal\(\)\] {
+  bottom: cal();
 }
 
-.my-\[10\] {
-  margin-top: 10;
-  margin-bottom: 10;
+.m-\[30px\] {
+  margin: 30px;
 }
 
-.my-\[10px\] {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.my-\[30px\] {
-  margin-top: 30px;
-  margin-bottom: 30px;
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mb-\[50px\] {
   margin-bottom: 50px;
 }
 
+.mb-\[80px\] {
+  margin-bottom: 80px;
+}
+
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mt-\[30px\] {
+  margin-top: 30px;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 .flex {
@@ -645,6 +673,18 @@ video {
   height: 100%;
 }
 
+.h-\[375px\] {
+  height: 375px;
+}
+
+.h-\[40\%\] {
+  height: 40%;
+}
+
+.h-\[50\%\] {
+  height: 50%;
+}
+
 .w-9 {
   width: 2.25rem;
 }
@@ -655,6 +695,10 @@ video {
 
 .w-\[350px\] {
   width: 350px;
+}
+
+.w-\[375px\] {
+  width: 375px;
 }
 
 .w-\[400px\] {
@@ -681,6 +725,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -711,6 +759,10 @@ video {
   gap: 1rem;
 }
 
+.gap-5 {
+  gap: 1.25rem;
+}
+
 .gap-8 {
   gap: 2rem;
 }
@@ -727,8 +779,28 @@ video {
   gap: 50px;
 }
 
+.gap-\[\] {
+  gap: ;
+}
+
+.gap-\[30px\] {
+  gap: 30px;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-2 {
@@ -744,6 +816,16 @@ video {
   border-color: rgb(151 151 151 / var(--tw-border-opacity));
 }
 
+.border-sky-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(14 165 233 / var(--tw-border-opacity));
+}
+
+.border-purple-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(168 85 247 / var(--tw-border-opacity));
+}
+
 .bg-\[\#D8D8D8\] {
   --tw-bg-opacity: 1;
   background-color: rgb(216 216 216 / var(--tw-bg-opacity));
@@ -754,9 +836,19 @@ video {
   background-color: rgb(245 245 243 / var(--tw-bg-opacity));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-lightdarkbg {
   --tw-bg-opacity: 1;
   background-color: rgb(118 118 118 / var(--tw-bg-opacity));
+}
+
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
 .bg-text {
@@ -789,6 +881,14 @@ video {
   padding: 0.5rem;
 }
 
+.p-8 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
 .px-14 {
   padding-left: 3.5rem;
   padding-right: 3.5rem;
@@ -802,6 +902,11 @@ video {
 .px-\[230px\] {
   padding-left: 230px;
   padding-right: 230px;
+}
+
+.px-\[35px\] {
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 .py-10 {
@@ -819,13 +924,31 @@ video {
   padding-bottom: 1rem;
 }
 
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .py-\[170px\] {
   padding-top: 170px;
   padding-bottom: 170px;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .align-middle {
@@ -911,9 +1034,41 @@ video {
   transition-duration: 500ms;
 }
 
+.hover\:flex:hover {
+  display: flex;
+}
+
+.hover\:h-\[50\%\]:hover {
+  height: 50%;
+}
+
+.hover\:w-\[100\%\]:hover {
+  width: 100%;
+}
+
+.hover\:flex-col:hover {
+  flex-direction: column;
+}
+
+.hover\:justify-end:hover {
+  justify-content: flex-end;
+}
+
+.hover\:gap-\[20px\]:hover {
+  gap: 20px;
+}
+
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:p-8:hover {
+  padding: 2rem;
+}
+
+.hover\:text-right:hover {
+  text-align: right;
 }
 
 .hover\:font-semibold:hover {
